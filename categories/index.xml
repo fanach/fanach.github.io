@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Fanach - 翻那墙</title>
+    <link>https://fanach.github.io/categories/</link>
+    <description>Recent content in Categories on Fanach - 翻那墙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fanach.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Android</title>
+      <link>https://fanach.github.io/categories/android/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ios</title>
+      <link>https://fanach.github.io/categories/ios/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/ios/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mac</title>
+      <link>https://fanach.github.io/categories/mac/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/mac/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shadowsocks</title>
+      <link>https://fanach.github.io/categories/shadowsocks/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/shadowsocks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tutorial</title>
+      <link>https://fanach.github.io/categories/tutorial/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/tutorial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vpn</title>
+      <link>https://fanach.github.io/categories/vpn/</link>
+      <pubDate>Sun, 16 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/vpn/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Windows</title>
+      <link>https://fanach.github.io/categories/windows/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/categories/windows/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

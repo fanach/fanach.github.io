@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Windows on Fanach - 翻那墙</title>
+    <link>https://fanach.github.io/categories/windows/</link>
+    <description>Recent content in Windows on Fanach - 翻那墙</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 06 Jul 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://fanach.github.io/categories/windows/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Windows 上使用 Shadowsocks 教程</title>
+      <link>https://fanach.github.io/post/ss-windows/</link>
+      <pubDate>Thu, 06 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://fanach.github.io/post/ss-windows/</guid>
+      <description>Windows 
+本文简要叙述 Windows 下（适用于 Windows XP，7，8，10）Shadowsocks 客户端的安装、配置 和使用过程。
+下载软件 下载 Windows 下的 Shadowsocks 软件，点击下载 shadowsocks-2.5.8.zip 。
+解压运行 下载后解压，解压后运行 Shadowsocks 。
+ 图 1. Shadowsocks 图标 
+配置帐号 首次运行，会弹出编辑服务器窗口，根据提供的帐号信息，正确填写服务器地址、端口、密码 和加密方式，然后点确定。
+ 图 2. 配置界面 
+点确定后，右下角弹出提示。
+ 图 3. 任务栏图标 
+右键程序图标，弹出主菜单，勾选 “启用系统代理”。
+ 图 4. 启用 Shadowsocks 
+验证是否成功 打开任意浏览器（IE / Chrome / Firefox 等），即可开始科学上网。
+试试被墙网站：Google，Twitter，YouTube
+ 图 5. 打开 Twitter 试试 
+Tips  如果软件无法运行，弹出需要安装 .net ，请前往微软官网安装对应系统的 .</description>
+    </item>
+    
+  </channel>
+</rss>

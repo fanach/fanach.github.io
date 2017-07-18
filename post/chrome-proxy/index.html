@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="generator" content="Hugo 0.26-DEV" />
+
+
+<title>为 Chrome / Chromium 设置 SOCKS5 代理 - Fanach - 翻那墙</title>
+<meta property="og:title" content="为 Chrome / Chromium 设置 SOCKS5 代理 - Fanach - 翻那墙">
+
+
+
+  
+
+
+
+
+
+
+<link rel="stylesheet" href="https://fanach.github.io/css/main.css" media="all">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Merriweather:400|Lato:400,400italic,700">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <nav class="nav">
+  <a href="https://fanach.github.io/" class="nav-logo">
+    <img src="https://fanach.github.io/images/favicon.ico" 
+         width="50" 
+         height="50" 
+         alt="Logo">
+  </a>
+
+  <ul class="nav-links">
+    
+    <li><a href="https://fanach.github.io/">Articles</a></li>
+    
+    <li><a href="https://fanach.github.io/downloads/">Downloads</a></li>
+    
+    <li><a href="https://fanach.github.io/about/">About</a></li>
+    
+  </ul>
+</nav>
+
+      </header>
+
+
+<main class="content" role="main">
+
+  <article class="article">
+    
+    <span class="article-duration">1 min read</span>
+    
+
+    <h1 class="article-title">为 Chrome / Chromium 设置 SOCKS5 代理</h1>
+
+    
+    <span class="article-date">May 30, 2017</span>
+    
+
+    <div class="article-content">
+      
+
+<p><center>
+<img src="chrome-chromium.jpg" width="50%"/></p>
+
+<p>Chrome / Chromium
+</center></p>
+
+<p>本文简要介绍 Chrome / Chromium 浏览器中 SwitchyOmega 插件的安装、配置和代理切换过程。</p>
+
+<h2 id="下载-switchyomega">下载 SwitchyOmega</h2>
+
+<p>Chrome / Chromium 可以用 SwitchyOmega 插件智能切换代理。</p>
+
+<p><center>
+<img src="chrome-proxy-01.png" width="95%"/></p>
+
+<p>图 1. SwitchyOmega
+</center></p>
+
+<p>到 Crx4Chrome 下载 <a href="https://www.crx4chrome.com/crx/998/">SwitchyOmega</a>，或者直接点击
+下载 <a href="https://github.com/fanach/download/releases/download/latest/SwitchyOmega.2.4.6.crx">SwitchyOmega.2.4.6.crx</a>。</p>
+
+<h2 id="安装-crx">安装 Crx</h2>
+
+<p>打开 Chrome 插件管理页面，另一侧打开 SwitchyOmega 的下载目录。拖动 SwitchyOmega 文件
+到 Chrome 插件页面中。</p>
+
+<p><center>
+<img src="chrome-proxy-02.png" width="95%"/></p>
+
+<p>图 2. 安装 SwitchyOmega
+</center></p>
+
+<p>在弹出提示页面，确定安装。之后 SwitchyOmega 配置页面将自动打开。</p>
+
+<p><center>
+<img src="chrome-proxy-03.png" width="95%"/></p>
+
+<p>图 3. SwitchyOmega 配置页
+</center></p>
+
+<h1 id="switchyomega-设置">SwitchyOmega 设置</h1>
+
+<p>点 “Skip Guide” 跳过向导，然后选择点击左侧 “proxy”，选择代理类型为 “SOCKS5”，
+设置服务器为 <code>127.0.0.1</code>，端口为 <code>1080</code>（本地端口），最后点左下方 “Apply changes” 保存。</p>
+
+<p><center>
+<img src="chrome-proxy-04.png" width="95%"/></p>
+
+<p>图 4. 设置 SwitchyOmega
+</center></p>
+
+<p>最后，在控件栏找到 SwitchyOmega 。</p>
+
+<p><center>
+<img src="chrome-proxy-05.png" width="95%"/></p>
+
+<p>图 5. 启用代理
+</center></p>
+
+<p>点击在弹出菜单里选择 “proxy”，是全局代理，国内外流量都走代理。</p>
+
+<p><center>
+<img src="chrome-proxy-06.png" width="95%"/></p>
+
+<p>图 6. 选择代理
+</center></p>
+
+<p>这里想要智能切换，就选择 “auto switch”，然后对于无法访问的被墙网站，选择 “proxy”，
+对于国内的网站，仍用 “direct” 直接连接。（我这里不好截图，拍的渣图凑合看，后面再换上。）</p>
+
+<p><center>
+<img src="chrome-proxy-07.png" width="95%"/></p>
+
+<p>图 7. 配置自动切换
+</center></p>
+
+<h1 id="验证是否成功">验证是否成功</h1>
+
+<p>打开新的窗口里，开始科学上网。</p>
+
+<p>试试被墙网站：<a href="https://google.com">Google</a>，<a href="https://twitter.com">Twitter</a>，<a href="https://youtube.com">YouTube</a>。</p>
+
+<p><center>
+<img src="chrome-proxy-08.png" width="95%"/></p>
+
+<p>图 8. 打开 Google 试试
+</center></p>
+
+<p>如果连接不成功，重新检查 Shadowsocks 帐号设置和 SwitchyOmega 配置。</p>
+
+    </div>
+  </article>
+
+  <div id="disqus_thread"></div>
+<script>
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "fanach" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+</main>
+
+      <footer class="footer">
+        <ul class="footer-links">
+          <li>
+            <a href="https://fanach.github.io/index.xml" type="application/rss+xml" target="_blank">RSS feed</a>
+          </li>
+          <li>
+            <a href="https://gohugo.io/" class="footer-links-kudos">Made with <img src="https://fanach.github.io/images/hugo-logo.png" width="22" height="22"></a>
+          </li>
+        </ul>
+      </footer>
+
+    </div>
+
+    
+  </body>
+</html>
+
